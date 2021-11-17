@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+  
+  <head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css" type="text/css" charset="UTF-8"/>
+	<title>Kenji Yasunaga</title>
+  </head>
+  
+<body>
+
+<!--
+  <h1>Kenji YASUNAGA</h1>
+  -->
+  
+  <ul class="menu">
+	<li class="name">Kenji Yasunaga</li>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="bio.html">Bio</a></li>
+	<li><a href="research.html">Research</a></li>
+	<li><a href="teaching.html">Teaching</a></li>
+  </ul>
+  
+
+
+<p>
+Associate Professor<br />
+  Department of Multimedia Engineering
+<br />
+Graduate School of Information Science and Technology
+<br />
+Osaka University
+</p>
+
+<!--
+<p>
+Ph.D, <a href="http://www.osaka-u.ac.jp/en/index.html">Osaka University</a>, 2008
+</p>
+-->
+
+<p>
+Email: yasunaga [atmark] ist.osaka-u.ac.jp<br />
+Address: 1-5 Yamadaoka, Suita, 565-0871 Japan<br />
+Phone: +81 6 6879 4516
+</p>
+
+<p class="japanesename" >
+安永 憲司, 博士(情報科学)<br />
+大阪大学 大学院情報科学研究科 マルチメディア工学専攻 准教授<br />
+住所: 565-0871 吹田市山田丘1-5<br />
+電話: 06-6879-4516<br />
+居室: 大阪大学 吹田キャンパス 情報科学研究科A棟A305
+</p>
+
+<!--
+<h2>Summary</h2>
+-->
+<!--
+<p>
+I am an Assistant Professor at 
+Faculty of Electrical and Computer Engineering, Kanazawa University.
+Previously I was a Researcher of 
+<a href="http://www.isit.or.jp/lab2/index_e.html">Information Security Laboratory</a> 
+at <a href="http://www.isit.or.jp/index.en.html">ISIT</a>, <br />
+Previously I was an Assistant Professor at 
+<a href="http://www.is.titech.ac.jp/index-e.html">Department of Mathematical and Computing Sciences</a>,
+<a href="http://www.titech.ac.jp/english/index.html">Tokyo Institute of Technology</a>.
+</p>
+-->
+<p>
+My research interests are in coding theory, cryptography, and computational complexity theory;<br />
+especially, pseudorandomness, error-correcting codes, game-theoretic cryptography.<br />
+</p>
+
+
+
+
+
+<!--
+<h2>Links to Other Sites</h2>
+<ul>
+  <li><a href="http://compview.titech.ac.jp/">グローバルＣＯＥ 計算世界観の深化と展開 (Global COE: CompView)</a></li>
+  <li><a href="http://www.itsoc.org/">IEEE Information Theory Society</a></li>
+  <li><a href="http://www.eccc.uni-trier.de/eccc/">Electronic Colloquium on Computational Complexity (ECCC)</a></li>
+  <li>
+	<a href="http://www.acm.org/">Association for Computing Machinery (ACM)</a>
+	<ul>
+	  <li><a href="http://sigact.acm.org/">ACM SIGACT</a></li>
+	  <li><a href="http://portal.acm.org/browse_dl.cfm?linked=1&part=newsletter&idx=J697&coll=portal&dl=ACM&CFID=31903859&CFTOKEN=39510926">ACM SIGACT Digital Library</a></li>
+	</ul>
+  </li>
+  <li>
+	<a href="http://www.ams.org/">American Mathematical Society (AMS)</a>
+	<ul>
+	  <li><a href="http://www.ams.org/bull/">Bulletin of the AMS</a></li>
+	</ul>
+  </li>
+  <li><a href="http://www.ieice.org/jpn/index.html">The Institute of Electronics, Information and Communication Engineers (IEICE)</a></li>
+</ul>
+-->
+
+<br />
+
+<p class="pagebottom">
+Last updated: 2021.09.22
+</p>
+
+<!--
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-340093-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+-->
+
+</body>
+
+</html>
+
+
+<!--  LocalWords:  Kenji Yasunaga Ph yasunaga atmark kenji Ookayama Meguro ku
+ -->
+<!--  LocalWords:  JSPS COE Computationism CompView pseudorandomness PDF Toru
+ -->
+<!--  LocalWords:  ISIT AAECC arXiv Tadao Kasami IEICE IEEE ECCC ACM SIGACT AMS
+ -->
+<!--  LocalWords:  Kanazawa Kakuma machi Haruna Higo Keisuke Tanaka IWSEC SCN
+ -->
+<!--  LocalWords:  Springer Plotkin Akihiro Yamada ACISP stateful Manh KEM PPTX
+ -->
+<!--  LocalWords:  Hitoshi Namiki ProvSec Uncorrectable PPT HISC Subcode ISITA
+ -->
+<!--  LocalWords:  SITA CSS GCOE Expander expander
+ -->
