@@ -4,7 +4,7 @@
   <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="main.css" type="text/css" charset="UTF-8"/>
-	<title>安永研究室</title>
+	<title>安永憲司研究室</title>
   </head>
   
 <body>
@@ -14,18 +14,67 @@
   </h2>
 
   <ul class="menu">
-	<li class="name">安永研究室</li>
+	<li class="name">安永憲司研究室</li>
 	<li><a href="index.html">トップ</a></li>
 	<li><a href="members.html">メンバー</a></li>
 	<li><a href="research.html">研究</a></li>
-	<li><a href="access.html">アクセス</a></li>
+	<li><a href="link.html">リンク</a></li>
   </ul>
   
-<p>
+  <p>
+	最近の研究について紹介します
+  </p>
+  
+	
+  <h2>セキュリティの定量化</h2>
+  <p>
+	暗号技術の安全性を評価したいときに，その安全性の程度を知りたくなります．多くの暗号技術は，証明されていない計算量的な仮定（素因数分解の困難性など）にもとづいているので，安全性の程度を証明つきで保証することは現状できませんが，現時点で知られているアルゴリズムを踏まえて見積もることはできます．一般的にビットセキュリティと呼ばれている安全性の強度を表す指標について，操作的な意味をもつ量として定式化する枠組みを最近与えました．0 か 1 かを答える判定タイプの安全性について，従来は正解する確率が 1/2 + &epsilon; のときに &epsilon; に着目していましたが，提案した枠組みでは仮説検定の理屈から，次数 1/2 の R&eacute;nyi 情報量で評価すべきという結論が導かれました．また，確率分布の近さを議論するときには，全変動距離よりも Hellinger 距離で評価するほうがより正確であることもわかりました．
+  </p>
+  <ul class="publications">
+	<li>
+	  Shun Watanabe and Kenji Yasunaga. 
+	  Bit Security as Computational Cost for Winning Games with High Probability. 
+	  Asiacrypt 2021. <a href="https://eprint.iacr.org/2021/1258">[ePrint]</a>
+	</li>
+	<li>
+	  Kenji Yasunaga.
+	  Replacing Probability Distributions in Security Games via Hellinger Distance. 
+	  Information-Theoretic Cryptography (ITC) 2021. <a href="https://eprint.iacr.org/2021/110">[ePrint]</a>
+	</li>
+	</ul>
 
-</p>
-
-
+  <h2>ゲーム理論的な安全性をもつ暗号プロトコル</h2>
+  <p>
+	暗号プロトコルに参加する人は，設計どおりにプロトコルに従う正直な人と正直な人が実現したいことを邪魔しようと攻撃する悪者のどちらかでモデル化されることが多いです．この二つのタイプの中間的な存在をゲーム理論の意味で合理的なプレイヤーとしてモデル化して安全性を議論するのがこのテーマです．正直者を合理的にして問題を難しくする方向性と，攻撃者を合理的にして実現可能性を広げる方向性のおよそ二方向があります．暗号プロトコルは十分に安全に設計しようとすると複雑になり実現コストが極めて大きくなる傾向があるので，最近は攻撃者を合理的にする方向に興味をもってとり組んでいます．つまり，妥当な安全性を低コストで実現する可能性の探索です．また，繰り返しゲームやスコアリングルールなどゲーム理論に特有の考えを暗号プロトコルの設計に活かすことも考えています．
+  </p>
+<ul class="publications">
+  <li>
+	  Maiki Fujita, Takeshi Koshiba, and Kenji Yasunaga. Perfectly Secure Message Transmission Against Rational Adversaries. GameSec 2018 &amp; GameSec 2019. <a href="https://arxiv.org/abs/2009.07513">[arXiv]</a>
+  </li>
+  <li>
+	Kenji Yasunaga and Kosuke Yuzawa. Repeated Games for Generating Randomness in Encryption. IEICE Trans. Fundamentals, 2018.
+	<a href="http://eprint.iacr.org/2017/218">[ePrint]</a>
+  </li>
+  <li>
+	Keita Inasawa and Kenji Yasunaga. Rational Proofs against Rational Verifiers. IEICE Trans. Fundamentals, 2017. <a href="http://eprint.iacr.org/2017/218">[ePrint]</a>
+  </li>
+</ul>
+  <h2>挿入・削除を訂正する符号</h2>
+  <p>
+	誤り訂正符号を簡潔に述べると，良い構造をもつ単射関数 Enc : {0,1}<sup>k</sup> &rarr; {0,1}<sup>n</sup> のことです．Enc(0&middot;&middot;&middot;0) から Enc(1&middot;&middot;&middot;1) が互いに離れていれば，Enc(m) に誤りが発生しても元の m に一意に復元できます．従来はハミング距離の意味で離れた（距離の大きい）符号をつくることが主流でしたが，最近は挿入・削除などを訂正するためにレーベンシュタイン距離の大きな符号を設計する研究が密かに盛んに行われています．DNAストレージで発生する誤りモデルとしても登場します．挿入や削除が発生すると，そもそもの系列の長さが変わって位置情報がやや失われるので，数学的にきれいに扱いにくい感じがします．この扱いにくさからか，直観に反するような結果も明らかになりつつあり，まだまだやることがありそうです．
+  </p>
+  <ul class="publications">
+	<li>Kenji Yasunaga. Improved Asymptotic Bounds for Codes Correcting Insertions and Deletions.
+	  Manuscript, 2021. <a href="https://arxiv.org/abs/2107.01785">[arXiv]</a>
+	</li>
+	<li>Tomohiro Hayashi and Kenji Yasunaga. On the List Decodability of Insertions and Deletions.
+	  IEEE Trans. on Information Theory, 2020. <a href="https://arxiv.org/abs/1805.06091">[arXiv]</a>
+	</li>
+  </ul>
+  <h2>その他，学生との共同研究について</h2>
+  <p>
+	研究テーマは各学生と教員の間で相談しながら決めます．互いに興味をもてるテーマであれば基本的には何でもOKです．教員側の興味の範囲は，大枠としては理論計算機科学で，より具体的には暗号理論や符号理論（誤り訂正符号）をこれまで主に研究対象としてきました．計算量理論・計算の複雑さ・ゲーム理論・情報理論なども興味の対象です．ゲーム理論からの派生として，社会選択理論に関する学生との研究もあります．最近の暗号理論では量子計算を使った攻撃者に対する安全性を考えることも多く，量子計算時代の暗号技術の設計などもありです．
+  </p>
 </body>
 
 </html>
