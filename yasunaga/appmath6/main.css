@@ -1,0 +1,56 @@
+body table { margin-left:1em }
+
+body {
+font-size:medium;
+margin-top:3em;
+margin-left:5em; 
+margin-right:5em;
+/* font-family:"Lucida Sans", "ヒラギノ丸ゴ Pro W4", Arial, Sans-serif;*/
+font-family: "Times New Roman","ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro W4", 
+"Hiragino Maru Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", "Arial", "Verdana", sans-serif;
+}
+
+h1 {font-size:1.5em }
+h2 {margin-top:1.5em; margin-left:0em; font-size:1.2em; padding:0.1em }
+.japanesetitle { font-size:1.1em }
+.japanese { font-size:0.9em }
+.publications li{margin-bottom:1.0em }
+.papertitle { font-style:italic; font-weight:bold }
+
+a:link { color:#0000ff; text-decoration:none }
+a:visited { color:#0000ff; text-decoration:none }
+a:active {color : #0000ff; text-decoration:none }
+a:hover {color : #ffffff; text-decoration:none; background-color: #3333ff}
+
+/*
+scrollbar-3dlight-color : #99ff66;
+scrollbar-face-color : #ffffff;
+scrollbar-arrow-color : #99ff66;
+scrollbar-shadow-color : #99ff66;
+scrollbar-darkshadow-color : #99ff66;
+scrollbar-highlight-color : #99ff66
+*/
+
+/*
+.lang { text-align:right }
+.list { text-align:center; font-size:smaller; font-weight:bold; 
+border-top:0.2em solid #99ff66; border-bottom:0.2em solid #99ff66 }
+.blist { text-align:center; font-size:smaller; font-weight:bold; 
+border-top:0.2em solid #99ff66; border-bottom:0.2em solid #99ff66 }
+.pagetop { font-size:smaller; font-family:sans-serif }
+.pagetopf { font-size:x-large; font-family:sans-serif }
+.pagebottom { font-size:smaller; text-align:center; font-family:sans-serif }
+h1 { padding:0.1em; font-size:1.3em; color:#cc0000; border-bottom:0.05em solid #990000; 
+border-top:0.05em solid #990000; border-right:0.05em solid #cc0000; border-left:thick solid #cc0000 }
+h2 { margin-top:1.5em; margin-left:0em; font-size:1.1em; padding:0.1em; color:#000000; 
+border-bottom:0.05em solid #66cc66; border-left:thick solid #66cc66}
+h3 { margin-left:0em; font-size:1em; padding:0.1em; color:#000000; 
+border-bottom:0.05em solid #339966; border-left:thick solid #339966}
+*/
+
+/*
+.list a:link { color:#000000; text-decoration:none }
+.list a:visited { color:#000000; text-decoration:none }
+.list a:active {color : #000000; text-decoration:none }
+.list a:hover {color : #000000; text-decoration:none; background-color: #ccff66}
+*/

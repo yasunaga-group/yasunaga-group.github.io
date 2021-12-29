@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<link rel="stylesheet" href="main.css" type="text/css" charset="UTF-8"/>
+<title>2010年度前期 応用数学５</title>
+</head>
+
+<body>
+
+<h1>2010年度前期 応用数学５</h1>
+
+<p>
+担当教員：安永憲司 ( yasunaga (at mark) is.titech.ac.jp ) <br />
+</p>
+
+<!--
+<p>
+<font color="red">5/13 は休講です。急な連絡で済みません（5/12更新）</font>
+</p>
+-->
+
+<h2>授業資料</h2>
+
+<ul>
+<li><a href="syllabus.pdf">シラバス</a></li>
+<li><a href="introduction.pdf">誤り訂正符号の導入，線形符号（4/28 更新）</a></li>
+<li><a href="gvbound.pdf">Gilbert-Varshamov 限界（5/25 更新）</a></li>
+<li><a href="shannon.pdf">Shannon の通信路符号化定理（6/8 更新）</a></li>
+<li><a href="bounds.pdf">符号の限界式（7/7 更新）</a></li>
+</ul>
+
+<h2>小テスト</h2>
+<ul>
+<li><a href="miniexam1.pdf">第1回 (4/22)</a></li>
+<li><a href="miniexam2.pdf">第2回 (5/6)</a></li>
+<li><a href="miniexam3.pdf">第3回 (5/20)</a></li>
+<li><a href="miniexam4.pdf">第4回 (5/27)</a></li>
+<li><a href="miniexam5.pdf">第5回 (6/3)</a></li>
+<li><a href="miniexam6.pdf">第6回 (6/10)</a></li>
+<li><a href="miniexam7.pdf">第7回 (6/17)</a></li>
+<li><a href="miniexam8.pdf">第8回 (6/24)</a></li>
+<li><a href="miniexam9.pdf">第9回 (7/1)</a></li>
+</ul>
+
+<h2>スケジュール（予定）</h2>
+<ul>
+<li>
+4/8 &nbsp;  第1回: ガイダンス
+</li><li>
+4/15 第2回: 誤り訂正問題の導入，基本用語の定義
+</li><li>
+4/22 第3回: 線形符号，Hamming 符号
+</li><li>
+4/29 祝日（昭和の日）
+</li><li>
+5/6 &nbsp;  第4回: Hamming 限界，よい符号とは
+</li><li>
+5/13 第5回: Gilbert-Varshamov 限界
+</li><li>
+5/20 第6回: ランダム線形符号
+</li><li>
+5/27 第7回: Shannon の通信路符号化定理
+</li><li>
+6/3 &nbsp;  第8回: Shannon の通信路符号化定理の証明
+</li><li>
+6/10 第9回: Singleton 限界，Plotkin 限界
+</li><li>
+6/17 第10回: Johnson 限界，Elias-Bassalygo 限界
+</li><li>
+6/24 第11回: Reed-Solomon 符号，Reed-Muller 符号 
+</li><li>
+7/1 &nbsp;  第12回: 連接符号
+</li><li>
+7/8 &nbsp;  第13回: Reed-Solomon 符号の復号法
+</li><li>
+7/15 第14回: 連接符号の復号法
+</li><li>
+7/22 第15回: 期末試験
+</li><li>
+7/29 予備日
+</li>
+</ul>
+<h2>参考ウェブページ</h2>
+
+<ul>
+<li><a href="http://www.cs.washington.edu/education/courses/533/06au/">
+Venkatesan Guruswami の University of Washington での講義ノート(2006年)</a></li>
+
+<li><a href="http://www.cse.buffalo.edu/~atri/courses/coding-theory/fall07.html">
+Atri Rudra の  University at Buffalo での講義ノート(2007年)</a></li>
+</ul>
+
+</body>
+
+</html>
