@@ -28,10 +28,14 @@
 	
   <h2>セキュリティの定量化</h2>
   <p>
-	暗号技術の安全性を評価したいときに，その安全性の程度を知りたくなります．多くの暗号技術は，証明されていない計算量的な仮定（素因数分解の困難性など）にもとづいているので，安全性の程度を証明つきで保証することは現状できませんが，現時点で知られているアルゴリズムを踏まえて見積もることはできます．一般的にビットセキュリティと呼ばれている安全性の強度を表す指標について，操作的な意味をもつ量として定式化する枠組みを最近与えました．0 か 1 かを答える判定タイプの安全性について，従来は正解する確率が 1/2 + &epsilon; のときに &epsilon; に着目していましたが，提案した枠組みでは仮説検定の理屈から，次数 1/2 の R&eacute;nyi 情報量で評価すべきという結論が導かれました．また，確率分布の近さを議論するときには，全変動距離よりも Hellinger 距離で評価するほうがより正確であることもわかりました．
+暗号技術の安全性を評価したいときに，その安全性の程度を知りたくなります．多くの暗号技術は，証明されていない計算量的な仮定（素因数分解の困難性など）にもとづいているので，安全性の程度を証明つきで保証することは現状できませんが，現時点で知られているアルゴリズムを踏まえて見積もることはできます．一般的にビットセキュリティと呼ばれている安全性の強度を表す指標について，操作的な意味をもつ量として定式化する枠組みを最近与えました．0 か 1 かを答える判定タイプの安全性について，従来は正解する確率が 1/2 + &epsilon; のときに &epsilon; という量に着目していましたが，提案した枠組みでは仮説検定の理屈から，次数 1/2 の R&eacute;nyi 情報量で評価すべきという結論が導かれました．確率分布の近さを議論するときには，全変動距離よりも Hellinger 距離で評価するほうがより正確であることもわかりました．先行研究では，0 と 1 だけでなく &perp; という出力（回答保留に対応）を許す場合のビットセキュリティの評価法が示されていましたが，我々の枠組みにおいて &perp; を許せば，２つの枠組みはほぼ同じ量を捉えていたことが明らかになりました．
   </p>
   <ul class="publications">
 	<li>
+	Shun Watanabe and Kenji Yasunaga.
+	Unified View for Notions of Bit Security.
+	Asiacrypt 2023. <a href="https://eprint.iacr.org/2022/693">[ePrint]</a></li>
+		<li>
 	  Shun Watanabe and Kenji Yasunaga. 
 	  Bit Security as Computational Cost for Winning Games with High Probability. 
 	  Asiacrypt 2021. <a href="https://eprint.iacr.org/2021/1258">[ePrint]</a>
@@ -45,19 +49,22 @@
 
   <h2>ゲーム理論的な安全性をもつ暗号プロトコル</h2>
   <p>
-	暗号プロトコルに参加する人は，設計どおりにプロトコルに従う正直な人と正直な人が実現したいことを邪魔しようと攻撃する悪者のどちらかでモデル化されることが多いです．この二つのタイプの中間的な存在をゲーム理論の意味で合理的なプレイヤーとしてモデル化して安全性を議論するのがこのテーマです．正直者を合理的にして問題を難しくする方向性と，攻撃者を合理的にして実現可能性を広げる方向性のおよそ二方向があります．暗号プロトコルは十分に安全に設計しようとすると複雑になり実現コストが極めて大きくなる傾向があるので，最近は攻撃者を合理的にする方向に興味をもってとり組んでいます．つまり，妥当な安全性を低コストで実現する可能性の探索です．また，繰り返しゲームやスコアリングルールなどゲーム理論に特有の考えを暗号プロトコルの設計に活かすことも考えています．
+暗号プロトコルに参加する人は，設計どおりにプロトコルに従う正直な人と正直な人が実現したいことを邪魔しようと攻撃する悪者のどちらかでモデル化されることが多いです．この二つのタイプの中間的な存在をゲーム理論の意味で合理的なプレイヤーとしてモデル化して安全性を議論するのがこのテーマです．正直者を合理的にして問題を難しくする方向性と，攻撃者を合理的にして実現可能性を広げる方向性のおよそ二方向があります．暗号プロトコルは十分に安全に設計しようとすると複雑になり実現コストが極めて大きくなる傾向があるので，最近は攻撃者を合理的にする方向に興味をもってとり組んでいます．つまり，妥当な安全性を低コストで実現する可能性の探索です．また，繰り返しゲームなどのゲーム理論に特有の考えを暗号プロトコルの設計に活かすことも考えています．
   </p>
 <ul class="publications">
   <li>
+Keigo Yamashita and Kenji Yasunaga. Rational Broadcast Protocols against Timid Adversaries. GameSec 2023. 
+  </li>
+	<li>
 	  Maiki Fujita, Takeshi Koshiba, and Kenji Yasunaga. Perfectly Secure Message Transmission Against Rational Adversaries. GameSec 2018 &amp; GameSec 2019. <a href="https://arxiv.org/abs/2009.07513">[arXiv]</a>
   </li>
   <li>
 	Kenji Yasunaga and Kosuke Yuzawa. Repeated Games for Generating Randomness in Encryption. IEICE Trans. Fundamentals, 2018.
 	<a href="http://eprint.iacr.org/2017/218">[ePrint]</a>
   </li>
-  <li>
-	Keita Inasawa and Kenji Yasunaga. Rational Proofs against Rational Verifiers. IEICE Trans. Fundamentals, 2017. <a href="http://eprint.iacr.org/2017/218">[ePrint]</a>
-  </li>
+ <!--  
+	<li>Keita Inasawa and Kenji Yasunaga. Rational Proofs against Rational Verifiers. IEICE Trans. Fundamentals, 2017. <a href="http://eprint.iacr.org/2017/218">[ePrint]</a></li>
+-->
 </ul>
   <h2>挿入・削除を訂正する符号</h2>
   <p>
