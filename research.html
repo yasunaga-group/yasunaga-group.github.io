@@ -68,14 +68,14 @@ Keigo Yamashita and Kenji Yasunaga. Rational Broadcast Protocols against Timid A
 </ul>
   <h2>誤り訂正符号（ランダムネスを使わないランダム符号の構成）</h2>
   <p>
-誤り訂正符号を簡潔に述べると，良い構造をもつ単射関数 Enc : {0,1}<sup>k</sup> &rarr; {0,1}<sup>n</sup> のことです．Enc(0&middot;&middot;&middot;0) から Enc(1&middot;&middot;&middot;1) が互いに離れていれば，Enc(m) に誤りが発生しても元の m に一意に復元できます．ランダム関数は高い確率で優れた（互いに離れた）符号を与えますが，再現性がないため，ランダム関数のように振る舞う「擬似ランダム」な関数の設計が良い符号の構成に繋がります．(1) 暗号技術やエクスパンダーグラフなどの擬似ランダム技術を用いた符号の設計，(2) 挿入・削除などを訂正するための符号の存在性の解明，(3) 「優れた符号を構成する」という問題自体の計算量の解明，などに最近は興味を持っています．
+誤り訂正符号を簡潔に述べると，良い構造をもつ単射関数 Enc : {0,1}<sup>k</sup> &rarr; {0,1}<sup>n</sup> のことです．Enc(0&middot;&middot;&middot;0) から Enc(1&middot;&middot;&middot;1) が互いに離れていれば，Enc(m) に誤りが発生しても元の m に一意に復元できます．ランダム関数は高い確率で優れた（互いに離れた）符号を与えますが，再現性がないため，ランダム関数のように振る舞う「擬似ランダム」な関数の設計が良い符号の構成に繋がります．暗号技術やエクスパンダーグラフなどの擬似ランダム技術を用いた符号の設計，「優れた符号を構成する」という問題自体の計算量の解明，などに最近は興味を持っています．
 </p>	
 <!--
 通常は，従来はハミング距離の意味で離れた（距離の大きい）符号をつくることが主流でしたが，最近は挿入・削除などを訂正するためにレーベンシュタイン距離の大きな符号を設計する研究が密かに盛んに行われています．DNAストレージで発生する誤りモデルとしても登場します．挿入や削除が発生すると，そもそもの系列の長さが変わって位置情報がやや失われるので，数学的にきれいに扱いにくい感じがします．この扱いにくさからか，直観に反するような結果も明らかになりつつあり，まだまだやることがありそうです．
 	  -->
   <ul class="publications">
 	<li>Kenji Yasunaga. Improved Asymptotic Bounds for Codes Correcting Insertions and Deletions.
-	  Manuscript, 2021. <a href="https://arxiv.org/abs/2107.01785">[arXiv]</a>
+	   Designs, Codes and Cryptography, 2024. <a href="https://arxiv.org/abs/2107.01785">[arXiv]</a>
 	</li>
 	<li>Tomohiro Hayashi and Kenji Yasunaga. On the List Decodability of Insertions and Deletions.
 	  IEEE Trans. on Information Theory, 2020. <a href="https://arxiv.org/abs/1805.06091">[arXiv]</a>
