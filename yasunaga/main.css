@@ -61,8 +61,6 @@ a:visited { color:#0000ff; text-decoration:none }
 a:active {color : #0000ff; text-decoration:none }
 a:hover {color : #ffffff; text-decoration:none; background-color: #3333ff}
 
-.topics {
-    margin-left: 0em;
-    font-size: 90%;
-    color: #000000;
+ul.japanese li {
+    margin-bottom: 0.5em;
 }
