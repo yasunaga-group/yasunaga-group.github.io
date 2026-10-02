@@ -60,3 +60,9 @@ a:link { color:#0000ff; text-decoration:none }
 a:visited { color:#0000ff; text-decoration:none }
 a:active {color : #0000ff; text-decoration:none }
 a:hover {color : #ffffff; text-decoration:none; background-color: #3333ff}
+
+.topics {
+    margin-left: 1em;
+    font-size: 90%;
+    color: #555;
+}
