@@ -62,7 +62,7 @@ a:active {color : #0000ff; text-decoration:none }
 a:hover {color : #ffffff; text-decoration:none; background-color: #3333ff}
 
 .topics {
-    margin-left: 1em;
+    margin-left: 0em;
     font-size: 90%;
-    color: #555;
+    color: #000000;
 }
